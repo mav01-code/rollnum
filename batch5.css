@@ -15,8 +15,8 @@ img {
     /* border-radius: 500px; */
 }
 
-@media (max-width: 600px){
-    img{
+@media (max-width: 600px) {
+    img {
         height: auto;
         width: 100%;
     }
@@ -63,13 +63,14 @@ nav {
     gap: 50px;
 }
 
-@media (max-width: 600px){
-    nav{
+@media (max-width: 600px) {
+    nav {
         display: flex;
         flex-direction: column;
         /* gap: 50px; */
     }
 }
+
 #p1 {
     font-style: italic;
 }
@@ -86,9 +87,10 @@ nav {
     display: grid;
 }
 
-@media (min-width: 1024px){
-    .grid{
+@media (min-width: 1024px) {
+    .grid {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
